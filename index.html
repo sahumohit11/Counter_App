@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+    
+    <link rel="stylesheet" href="style.css">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css"
+        integrity="sha512-6p+GTq7fjTHD/sdFPWHaFoALKeWOU9f9MPBoPnvJEWBkGS4PKVVbCpMps6IXnTiXghFbxlgDE8QRHc3MU91lJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <!-- wrapper -->
+    <div  class="mainwrapper">
+
+        <div class="incdec">Increment and Decrement</div>
+        
+        <div class="innerwrap">
+            <!-- negative button -->
+            <button class="btn1" onclick="decrement()">
+                <i class="ri-subtract-line"></i>
+            </button>
+            <!-- counter -->
+            <div class="innerdiv" id="counter">
+                0
+            </div>
+            <!-- postive button -->
+            <button class="btn2" onclick="increment()">
+                <i class="ri-add-line"></i>
+            </button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

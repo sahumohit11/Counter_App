@@ -1,0 +1,47 @@
+.mainwrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 22px;
+}
+.incdec{
+    color: rgb(26, 190, 254);
+    font: bold;
+    font-size: 18px;
+    gap: 5px;
+}
+.innerwrap{
+    display: flex;
+    align-items: center;
+
+}
+.btn1{
+    border-right: 3px solid black;
+    background-color: white;
+   padding: 17px;
+   height: 3.5rem;
+   /* width: 2.1rem; */
+
+}
+.innerdiv{
+    font-size:large;
+    font:bolder;
+    background-color: white;
+    padding: 17px;
+    text-align: center;
+    height: 3.5rem;
+    width: 5rem;
+   
+}
+.btn2{
+    border-left: 3px solid black;
+    background-color: white;
+    padding: 17px;
+    height: 3.5rem;
+    /* width: 2.1rem; */
+
+}
